@@ -1,0 +1,33 @@
+capital = 2
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1995.5.7"
+	election_frequency = 84
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 66.04
+	fascism = 15
+	communism = 14.22
+	neutrality = 4.74
+}
+
+create_country_leader = {
+	name = "Jacques Chirac"
+	desc = ""
+	picture = "Jacques_Chirac.tga"
+	expire = "2002.4.21"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}

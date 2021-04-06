@@ -1,0 +1,5 @@
+TES	= "countries/Test.txt"
+LUX	= "countries/Test.txt"
+FRA	= "countries/Test.txt"
+GER	= "countries/Test.txt"
+BEL	= "countries/Test.txt"

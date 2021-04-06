@@ -1,0 +1,16 @@
+
+state={
+	id=2
+	name="STATE_2"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+	}
+
+	provinces={
+		14 19 37 39 49 90 123 176 223 230 308 337 372 378 390 478 485 533 545 623 659 673 706 729 751 820 829 834 845 934 935 936 938 
+	}
+	manpower=59049000
+	buildings_max_level_factor=1.000
+}
