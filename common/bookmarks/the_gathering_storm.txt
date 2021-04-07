@@ -43,6 +43,30 @@ bookmarks = {
 			}
 		}
 		
+		"COM" = {
+			history = "TES_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"NAT" = {
+			history = "TES_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
 		"---" = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

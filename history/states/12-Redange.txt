@@ -4,8 +4,8 @@ state={
 	name="STATE_12"
 
 	history={
-		owner = LUX
-		add_core_of = LUX
+		owner = NAT
+		add_core_of = NAT
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2

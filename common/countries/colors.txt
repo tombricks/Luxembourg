@@ -30,3 +30,11 @@ RDC = {
 	color = rgb { 200 100 0 }
 	color_ui = rgb { 200 100 0 }
 }
+COM = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+NAT = {
+	color = rgb { 170 20 170 }
+	color_ui = rgb { 170 20 170 }
+}
