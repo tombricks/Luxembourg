@@ -1,0 +1,25 @@
+state = {
+	id = 5
+	name = "STATE_5"
+	provinces = {
+		811 141 270 267 726
+	}
+	
+	history = {
+		owner = RDC
+		add_core_of = RDC
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+
+		victory_points = {
+			267 10 # Vlanden
+		}
+	}
+	
+	manpower = 5163
+	buildings_max_level_factor = 1.000
+	state_category = city
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=9
+	name="STATE_9"
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+
+		victory_points = {
+			498 10 # Differdange
+		}
+		victory_points = {
+			229 10 # Esch
+		}
+		victory_points = {
+			435 10 # Dudelange
+		}
+		victory_points = {
+			666 10 # Frisange
+		}
+		victory_points = {
+			933 10 # Bettembourg
+		}
+		victory_points = {
+			654 10 # Pontpierre
+		}
+
+	}
+
+	provinces={
+		191 229 435 488 498 544 654 666 708 846 933 
+	}
+	manpower=176820
+	buildings_max_level_factor=1.000
+	state_category=city
+}

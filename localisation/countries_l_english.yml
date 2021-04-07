@@ -15,9 +15,6 @@
  TES_DEF: "Microwave Cooking for One"
  TES_ADJ: "Microwave Cooking for One"
 
- LUX: "Luxembourg"
- LUX_DEF: "Luxembourg"
- LUX_ADJ: "Luxembourg"
  GER: "Germany"
  GER_DEF: "Germany"
  GER_ADJ: "German"
@@ -27,3 +24,18 @@
  FRA: "France"
  FRA_DEF: "France"
  FRA_ADJ: "French"
+
+ LUX: "Luxembourg"
+ LUX_DEF: "Luxembourg"
+ LUX_ADJ: "Luxembourg"
+ LUX_democratic: "Grand Duchy of Luxembourg"
+ LUX_democratic_DEF: "The Grand Duchy of Luxembourg"
+ LUX_democratic_ADJ: "Luxembourg"
+
+ VDB: "Volksdeutsche Bewegung"
+ VDB_DEF: "The Volksdeutsche Bewegung"
+ VDB_ADJ: "Volksdeutsche"
+
+ RDC: "Regional Defence Council of Luxembourg"
+ RDC_DEF: "The Regional Defence Council of Luxembourg"
+ RDC_ADJ: "Regional Defence Council"

@@ -1,0 +1,33 @@
+
+state={
+	id=6
+	name="STATE_6"
+
+	history={
+		owner = VDB
+		add_core_of = VDB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+
+		victory_points = {
+			756 10 # Weiswampach
+		}
+		victory_points = {
+			28 10 # Trolsvierges
+		}
+		victory_points = {
+			831 10 # Clervaux
+		}
+
+	}
+
+	provinces={
+		28 73 227 247 325 400 517 524 629 640 655 671 672 756 831 895 897 
+	}
+	manpower=18081
+	buildings_max_level_factor=1.000
+	state_category=city
+}

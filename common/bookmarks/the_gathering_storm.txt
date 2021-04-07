@@ -19,6 +19,30 @@ bookmarks = {
 			}
 		}
 		
+		"VDB" = {
+			history = "TES_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
+		"RDC" = {
+			history = "TES_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+				
+			}
+			focuses = {
+			
+			}
+		}
+		
 		"---" = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

@@ -1,6 +1,6 @@
-﻿capital = 1
-set_war_support = 0.6
-set_stability = 0.3
+﻿capital = 6
+set_war_support = 0.8
+set_stability = 0.8
 
 # Starting tech
 set_technology = {
@@ -83,22 +83,21 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1999.6.13"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 52
-	neutrality = 48
+	fascism = 100
 }
 
 create_country_leader = {
-	name = "Grand Duke Jean"
+	name = "Christian Worch"
 	desc = ""
-	picture = "Grand_Duke_Jean.dds"
+	picture = "Christian_Worch.dds"
 	expire = "2000.10.7"
-	ideology = conservatism
+	ideology = nazism
 	traits = {
 		#
 	}

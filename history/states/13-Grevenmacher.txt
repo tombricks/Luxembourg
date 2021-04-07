@@ -1,0 +1,31 @@
+
+state={
+	id=13
+	name="STATE_13"
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+
+		victory_points = {
+			67 20 # Grevenmacher
+		}
+
+		victory_points = {
+			915 10 # Wasserbillig
+		}
+
+	}
+
+	provinces={
+		16 67 317 386 392 432 577 682 783 842 862 915 309
+	}
+	manpower=29828
+	buildings_max_level_factor=1.000
+	state_category=city
+}

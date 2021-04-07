@@ -1,19 +1,29 @@
-state = {
-	id = 1
-	name = "STATE_1"
-	provinces = {
-		16 18 22 28 29 35 51 57 60 67 70 73 86 103 137 139 141 142 143 147 161 187 191 227 229 247 249 250 252 254 261 267 270 271 273 286 294 297 309 312 317 325 356 366 380 386 391 392 393 400 402 426 427 432 435 444 446 451 453 468 469 487 488 490 493 498 499 505 514 517 519 524 544 549 558 570 577 580 601 606 607 621 629 638 640 643 644 648 651 652 654 655 666 671 672 682 685 690 705 708 711 714 716 726 756 757 770 773 783 784 789 797 798 811 822 825 826 831 836 842 846 847 862 873 895 897 903 915 920 923 925 927 930 931 933 
-	}
-	
-	history = {
+
+state={
+	id=1
+	name="STATE_1"
+
+	history={
 		owner = LUX
 		add_core_of = LUX
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
 		}
+
+		
+		victory_points = { 469 50 } # Luxembourg 
+		victory_points = { 648 10 } # Hesparange 
+		victory_points = { 925 10 } # Schuttrange 
+		
+
 	}
-	
-	manpower = 436000
-	buildings_max_level_factor = 1.000
-	state_category = city
+
+	provinces={
+		29 35 137 252 426 469 580 648 770 822 836 923 925 927 
+	}
+	manpower=182607
+	buildings_max_level_factor=1.000
+	state_category=city
 }

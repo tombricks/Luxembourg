@@ -1,0 +1,27 @@
+
+state={
+	id=15
+	name="STATE_15"
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+
+		victory_points = {
+			549 10 # Mersch
+		}
+
+	}
+
+	provinces={
+		51 103 139 187 254 273 391 549 606 607 638 
+	}
+	manpower=32112
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=10
+	name="STATE_10"
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+
+		victory_points = {
+			651 10 # Remich
+		}
+		victory_points = {
+			931 10 # Bous
+		}
+
+	}
+
+	provinces={
+		60 143 147 380 453 493 651 931 
+	}
+	manpower=22366
+	buildings_max_level_factor=1.000
+	state_category=city
+}

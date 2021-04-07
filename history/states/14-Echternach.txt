@@ -1,0 +1,30 @@
+
+state={
+	id=14
+	name="STATE_14"
+
+	history={
+		owner = LUX
+		add_core_of = LUX
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+
+		victory_points = {
+			798 10 # Graulinster
+		}
+		victory_points = {
+			652 10 # Echternach
+		}
+
+	}
+
+	provinces={
+		86 312 393 519 652 789 798 
+	}
+	manpower=18899
+	buildings_max_level_factor=1.000
+	state_category=city
+}

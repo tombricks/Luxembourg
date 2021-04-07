@@ -1,0 +1,30 @@
+
+state={
+	id=7
+	name="STATE_7"
+
+	history={
+		owner = VDB
+		add_core_of = VDB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+
+		victory_points = {
+			70 10 # Wiltz
+		}
+		victory_points = {
+			711 10 # Hiederscheld
+		}
+
+	}
+
+	provinces={
+		70 249 261 297 402 451 487 505 570 601 643 644 705 711 784 847 
+	}
+	manpower=22366
+	buildings_max_level_factor=1.000
+	state_category=city
+}
