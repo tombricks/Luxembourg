@@ -102,3 +102,19 @@ create_country_leader = {
 		#
 	}
 }
+
+create_faction = COM_faction
+add_to_faction = COM
+add_to_faction = RDC
+
+add_opinion_modifier = { target = RDC modifier = COM_faction }
+reverse_add_opinion_modifier = { target = RDC modifier = COM_faction }
+diplomatic_relation = {
+    country = RDC
+    relation = non_aggression_pact
+    active = yes
+}
+
+declare_war_on = { target = LUX type = civil_war }
+declare_war_on = { target = NAT type = civil_war }
+declare_war_on = { target = VDB type = civil_war }
