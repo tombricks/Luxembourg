@@ -1,0 +1,31 @@
+﻿
+COM_INF_01 = 
+{
+	name = "Revolutionär Kampf Eenheet"
+
+	for_countries = { COM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { LUX_INF_01 }
+
+	fallback_name = "%d. Revolutionär Kampf Eenheet"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. \"Karl Marx\" Revolutionär Kampf Eenheet" }
+		5 = { "%d. \"Friedrich Engels\" Revolutionär Kampf Eenheet" }
+		10 = { "%d. \"Vladimir Lenin\" Revolutionär Kampf Eenheet" }
+		15 = { "%d. \"Joeseph Stalin\" Revolutionär Kampf Eenheet" }
+		20 = { "%d. \"Leon Trotsky\" Revolutionär Kampf Eenheet" }
+		25 = { "%d. \"Rosa Luxemburg\" Revolutionär Kampf Eenheet" }
+		30 = { "%d. \"Ernst Thälmann\" Revolutionär Kampf Eenheet" }
+		35 = { "%d. \"Wilhelm Pieck\" Revolutionär Kampf Eenheet" }
+		40 = { "%d. \"Louis Althusser\" Revolutionär Kampf Eenheet" }
+	}
+}

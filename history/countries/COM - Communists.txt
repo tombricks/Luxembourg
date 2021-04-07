@@ -1,6 +1,7 @@
 ﻿capital = 8
 set_war_support = 0.9
 set_stability = 0.6
+oob = "COM_2000"
 
 # Starting tech
 set_technology = {
@@ -114,7 +115,3 @@ diplomatic_relation = {
     relation = non_aggression_pact
     active = yes
 }
-
-declare_war_on = { target = LUX type = civil_war }
-declare_war_on = { target = NAT type = civil_war }
-declare_war_on = { target = VDB type = civil_war }

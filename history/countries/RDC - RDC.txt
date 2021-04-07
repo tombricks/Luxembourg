@@ -102,7 +102,3 @@ create_country_leader = {
 		#
 	}
 }
-
-declare_war_on = { target = LUX type = civil_war }
-declare_war_on = { target = NAT type = civil_war }
-declare_war_on = { target = VDB type = civil_war }

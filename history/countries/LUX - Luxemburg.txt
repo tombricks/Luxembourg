@@ -1,6 +1,7 @@
 ﻿capital = 1
 set_war_support = 0.6
 set_stability = 0.3
+oob = "LUX_2000"
 
 # Starting tech
 set_technology = {
@@ -103,8 +104,3 @@ create_country_leader = {
 		#
 	}
 }
-
-declare_war_on = { target = COM type = civil_war }
-declare_war_on = { target = RDC type = civil_war }
-declare_war_on = { target = NAT type = civil_war }
-declare_war_on = { target = VDB type = civil_war }

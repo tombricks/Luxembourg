@@ -1,0 +1,136 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+LUX_Build_Infantry = {
+	enable = {
+		always = yes
+	}
+	abort = { 
+		has_war = no
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = paratroopers
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = mountaineers
+		value = 25
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = marines
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = armor
+		value = 0
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 100
+	}
+}
+
+LUX_BUILD_ARMIES_IDIOTS = {
+
+	allowed = { tag = LUX }
+
+	enable = {
+		has_war = yes
+	}
+	
+	ai_strategy = {
+        type = force_build_armies
+        value = 1000000000000000000
+    }
+}
+
+RDC_Backstabbing_Bolsheviks = {
+	allowed = {
+		tag = RDC
+	}
+
+	enable = {
+		country_exists = COM
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = COM
+		value = 50
+	}
+}
+
+# Make other Major countries be very hostile to NAT
+NAT_They_are_fucking_insane = {
+	enable = {
+		country_exists = NAT
+		has_war_with = NAT
+	}
+	abort = {
+		NOT = {
+			country_exists = NAT
+		}
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = NAT
+		value = 150
+	}
+	ai_strategy = {
+		type = consider_weak
+		id = NAT
+		value = 150
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = NAT
+		value = 100
+	}
+}
+
+# Make other Major countries be very hostile to NAT
+LUX_Kill_Commies = {
+	allowed = {
+		tag = LUX
+	}
+	enable = {
+		has_war_with = COM
+	}
+	abort = {
+		NOT = {
+			country_exists = COM
+		}
+	}
+	
+	ai_strategy = {
+		type = invade
+		id = COM
+		value = 150
+	}
+}
