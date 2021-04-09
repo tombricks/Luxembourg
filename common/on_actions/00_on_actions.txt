@@ -29,31 +29,20 @@ on_actions = {
 			}
 			every_state = {
 				limit = {
-					OR = {
-						is_core_of = LUX
-						is_core_of = COM
-						is_core_of = RDC
-						is_core_of = VDB
-						is_core_of = NAT
+					OWNER = {
+						OR = {
+							tag = LUX
+							tag = COM
+							tag = RDC
+							tag = VDB
+							tag = NAT
+						}
 					}
 				}
-				LUX = {
-					add_state_core = PREV
-					add_state_claim = PREV
-				}
-				COM = {
-					add_state_core = PREV
-					add_state_claim = PREV
-				}
-				RDC = {
-					add_state_core = PREV
-					add_state_claim = PREV
-				}
-				VDB = {
-					add_state_core = PREV
-					add_state_claim = PREV
-				}
-				NAT = {
+				every_country = {
+					limit = {
+						has_country_flag = Is_Luxembourg
+					}
 					add_state_core = PREV
 					add_state_claim = PREV
 				}

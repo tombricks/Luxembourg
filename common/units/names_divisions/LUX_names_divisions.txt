@@ -328,3 +328,26 @@ LUX_GAR_01 =
 	}
 }
 
+
+VDB_INF_01 = 
+{
+	name = "Volkssturm"
+
+	for_countries = { VDB }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { LUX_INF_01 }
+
+	fallback_name = "%d. Volkssturm"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. \"Adolf Hitler\" Volkssturm" }
+	}
+}

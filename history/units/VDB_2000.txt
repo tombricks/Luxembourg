@@ -1,0 +1,166 @@
+﻿start_equipment_factor = 0.6
+division_template = {
+	name = "Volkssturm"		
+	division_names_group = VDB_INF_01
+	# Luxembourg had a token garrison force of ~600 men
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 897
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 671
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 643
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 249
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 711
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 487
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 784
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 402
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 601
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 671
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 643
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 249
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 711
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 487
+		division_template = "Volkssturm"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "LUX"
+		}
+		requested_factories = 5
+		progress = 0.25
+		efficiency = 75
+	}
+}

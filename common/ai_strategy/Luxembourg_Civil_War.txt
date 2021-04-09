@@ -57,7 +57,7 @@ LUX_Build_Infantry = {
 
 LUX_BUILD_ARMIES_IDIOTS = {
 
-	allowed = { tag = LUX }
+	allowed = { always = yes }
 
 	enable = {
 		has_war = yes
@@ -111,26 +111,5 @@ NAT_They_are_fucking_insane = {
 		type = prepare_for_war
 		id = NAT
 		value = 100
-	}
-}
-
-# Make other Major countries be very hostile to NAT
-LUX_Kill_Commies = {
-	allowed = {
-		tag = LUX
-	}
-	enable = {
-		has_war_with = COM
-	}
-	abort = {
-		NOT = {
-			country_exists = COM
-		}
-	}
-	
-	ai_strategy = {
-		type = invade
-		id = COM
-		value = 150
 	}
 }

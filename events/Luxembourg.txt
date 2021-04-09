@@ -1,0 +1,58 @@
+﻿###########################
+# Low Countries Events
+###########################
+
+add_namespace = LUX_Government_Collapse
+
+# Assassination of Grand Duke Jean
+news_event = {
+	id = LUX_Government_Collapse.1
+	title = LUX_Government_Collapse.1.t
+	desc = LUX_Government_Collapse.1.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	trigger = {
+		date > 2000.11.15
+		NOT = {
+			has_global_flag = LUX_Assassination_of_Jean
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = LUX_Assassination_of_Jean
+			LUX = {
+				kill_country_leader = yes
+				country_event = { id = LUX_Government_Collapse.2 days = 14 }
+			}
+		}
+	}
+	
+	option = {
+		name = LUX_Government_Collapse.1.a
+	}
+}
+
+# Henri Dissolves Government
+country_event = {
+	id = LUX_Government_Collapse.2
+	title = LUX_Government_Collapse.2.t
+	desc = LUX_Government_Collapse.2.d
+	picture = GFX_news_event_001
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = LUX_Government_Collapse.2.a # Uphold the Grand Duchy
+		LUX_Government_Collapse = yes
+	}
+	
+	option = {
+		name = LUX_Government_Collapse.2.b # Uphold Democracy
+		LUX_Government_Collapse = yes
+		event_target:LUX_Federal_Republic = {
+			change_tag_from = LUX
+		}
+	}
+}

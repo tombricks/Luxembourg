@@ -305,7 +305,7 @@ DEFAULT_template_design = {
 	ai_strategy = {
 		type = template_prio
 		id = motorized
-		value = 10
+		value = 0
 	}
 
 	ai_strategy = {
@@ -317,7 +317,7 @@ DEFAULT_template_design = {
 	ai_strategy = {
 		type = template_prio
 		id = light_armor
-		value = 50
+		value = 0
 	}
 
 	ai_strategy = {
@@ -354,7 +354,7 @@ DEFAULT_template_design = {
 	ai_strategy = {
 		type = template_prio
 		id = mechanized
-		value = 10
+		value = 0
 	}
 
 	ai_strategy = {
@@ -366,25 +366,25 @@ DEFAULT_template_design = {
 	ai_strategy = {
 		type = template_prio
 		id = light_armor
-		value = 10
+		value = 0
 	}
 
 	ai_strategy = {
 		type = template_prio
 		id = medium_armor
-		value = 20
+		value = 0
 	}
 	
 	ai_strategy = {
 		type = template_prio
 		id = modern_armor
-		value = 50
+		value = 0
 	}
 
 	ai_strategy = {
 		type = template_prio
 		id = heavy_armor
-		value = 10
+		value = 0
 	}
 
 	ai_strategy = {
@@ -597,7 +597,7 @@ put_garrisons_on_high_prio = {
 	
 	ai_strategy = {
 		type = garrison_reinforcement_priority
-		value = 100 # positive is high prio, negative is low prio
+		value = 1 # positive is high prio, negative is low prio
 	}
 }
 
