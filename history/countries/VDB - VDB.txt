@@ -4,6 +4,10 @@ set_stability = 0.8
 oob = "template"
 set_country_flag = Is_Luxembourg
 oob = "VDB_2000"
+add_ideas = {
+	scraping_the_barrel
+	war_economy
+}
 
 # Starting tech
 set_technology = {

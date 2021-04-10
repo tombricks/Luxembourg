@@ -5,6 +5,7 @@ oob = "LUX_2000"
 set_country_flag = Is_Luxembourg
 add_ideas = {
 	scraping_the_barrel
+	war_economy
 }
 
 # Starting tech

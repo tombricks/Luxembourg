@@ -3,6 +3,10 @@ set_war_support = 0.5
 set_stability = 0.5
 oob = "template"
 set_country_flag = Is_Luxembourg
+add_ideas = {
+	scraping_the_barrel
+	war_economy
+}
 
 # Starting tech
 set_technology = {
